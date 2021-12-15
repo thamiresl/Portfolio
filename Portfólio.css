@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(190, 138, 238);
+    background-color: rgb(243, 240, 247);
+    margin: 0;
+    padding: 0;
 }
-h1{
+h1, h2{
     color: purple;
     text-align: center;
     background-color: rgb(210, 190, 229);
@@ -10,31 +12,8 @@ h1{
 
 }
 
-#p1{
-    color: purple;
-    text-align: right;
-    width: 420px;
-    font-size: 20px;
-    line-height: 25px;
-    padding-left: 250px;
-    
-}
-#p2{
-    color: rgb(88, 6, 88);
-    width: 200px;
-    font-size: 25px;
-    line-height: 10px;
-    
-}
 
-#hab{
-    color: purple;
-    width: 200px;
-    font-size: 20px;
-    line-height: 20px;
-    
-}
-.button{
+.button-linkedin{
     text-decoration: none;
     line-height: 15px;
     padding: 20px;
@@ -45,6 +24,20 @@ h1{
     text-align: center;
     font-weight: 700;
 }
+.button-github{
+    text-decoration: none;
+    line-height: 15px;
+    padding: 20px;
+    background:rgb(210, 190, 229) ;
+    border-radius: 4px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+.button-github, .button-linkedin{
+    display: inline-block;
+}
 .picture{
     border-radius: 50%;
     width: 150px;
@@ -52,5 +45,6 @@ h1{
 }
 
 img, p{
-    display: inline-block
+    display: inline-block;
+    
 }
