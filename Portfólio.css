@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+* {
+    text-decoration: none;
+}
 body{
     color: rgb(44, 39, 51);
     margin: 0;
@@ -37,48 +40,31 @@ h2{
     padding: 0 120px;
     position: relative;
 }
-.button-linkedin .button-github{
-    display: inline-block;
-    margin-top: 1rem;
+
+.socia-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+    background-color: rgb(221, 159, 120);
+    height: 50px;
+    width: 200px;
+    box-shadow: 4px 5px 4px rgba(0,0,0, 0.25);
+    border-radius: 5%;
+    font-weight: 600;
+    
 }
 
-.button-linkedin{
-    text-decoration: none;
-    color: rgb(44, 39, 51);
-    line-height: 15px;
-    padding: 1rem;
-    background:rgb(194, 142, 93)  ;
-    border-radius: 4px;
-    display: block;
-    width: 100px;
-    text-align: center;
-    font-weight: 700;
-    transition: .5s ease-in-out;
-       
-}
-.button-github{
-    text-decoration: none;
-    color: rgb(44, 39, 51);
-    line-height: 15px;
-    padding: 1rem;
-    background:rgb(194, 142, 93) ;
-    border-radius: 4px;
-    display: block;
-    width: 100px;
-    text-align: center;
-    font-weight: 700;
-    transition: .5s ease-in-out;
-}
-
-a:hover{
+a:hover {
     background-color: rgb(216, 188, 170) ;
 }
-.checkbox-container{
+.checkbox-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.checkbox{
+.checkbox {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -90,7 +76,7 @@ a:hover{
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
 }
-.checkbox .trace{
+.checkbox .trace {
     width: 50px;
     height: 2px;
     background-color: rgb(44, 39, 51);
@@ -111,7 +97,7 @@ a:hover{
     top: 66px;
     transform: rotate(0)
 }
-#toggle{
+#toggle {
     display: none;
 }
 .menu{
